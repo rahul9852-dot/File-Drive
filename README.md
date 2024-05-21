@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This comprehensive full stack file storage application leverages Next.js for a robust frontend, Clerk for secure authentication, Shadcn for user-friendly UI components, and Convex for efficient backend data management, integrating features like role-based authorization, automated tasks, and advanced file management capabilities.
 
-## Getting Started
+Next.js:
 
-First, run the development server:
+  - 🌐 Frontend Framework: Utilized Next.js to create a responsive and fast frontend for the application, leveraging its server-side rendering and static site generation capabilities 
+     for optimal performance.
+  
+  - 🔐 Authentication with Clerk:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  - 🛡️ Secure Authentication: Implemented secure user login and session management using Clerk, ensuring users' data is protected.
+  - 🏢 Organizations: Enabled support for organizational structures and multi-user access, allowing different roles and permissions within an organization.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🖥️ UI Components with Shadcn:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-  📋 Dialogs: Developed interactive dialog boxes for user prompts and confirmations, ensuring a smooth user experience.
+-  🗃️ Modals: Integrated overlay pop-ups for additional information or actions, enhancing user interactions.
+-  🔔 Toasts: Implemented temporary notifications to provide users with instant feedback on their actions.
+-  ⬇️ Dropdowns: Created expandable lists for selecting options, making the interface intuitive and easy to navigate.
+-  📂 Full Stack File Storage Application:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+##### 📤 File Upload: Implemented the ability to upload files to the storage system, ensuring users can easily store their documents and media.
+##### 📁 File Management: Provided tools for organizing and managing stored files, including renaming, moving, and categorizing files for better organization.
+##### 🔐 Role-Based Authorization: Established access control based on user roles, ensuring users have appropriate permissions for file access and actions.
+##### ⏲️ Cron Deletes: Set up automated file deletion using scheduled tasks, helping manage storage space by periodically removing old or unused files.
+##### ⭐ Favorites: Enabled marking and managing favorite files for quick access, allowing users to easily find frequently used files.
+##### 🗑️ Trash Feature: Implemented a soft delete functionality, allowing files to be moved to trash before permanent deletion, giving users a chance to recover accidentally deleted files.
+#####  🗄️ Backend with Convex:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+##### 📊 Data Storage and Retrieval: Managed backend data storage and retrieval using Convex databases, ensuring efficient and scalable data handling.
